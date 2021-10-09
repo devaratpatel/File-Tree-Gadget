@@ -8,17 +8,21 @@ const App = () => {
           <File name="all_star.mp3." />
           <File name="express_file.mp3" />
         </Folder>
-        <Folder name="Random">
-          <File name="weirdText.txt" />
-        </Folder>
-        <File name="dogs.jpeg" />
-        <File name="cats.png" />
       </Folder>
       <Folder name="Applications">
         <Folder name="Facetime" />
         <Folder name="Adobe Acrobat Reader">
           <File name="covidTest.pdf" />
           <File name="passport.pdf" />
+        </Folder>
+        <Folder name="Music">
+          <File name="all_star.mp3." />
+          <File name="express_file.mp3" />
+        </Folder>
+        <File name="dogs.jpeg" />
+        <File name="cats.png" />
+        <Folder name="Random">
+          <File name="weirdText.txt" />
         </Folder>
       </Folder>
     </div>
