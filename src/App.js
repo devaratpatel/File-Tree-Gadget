@@ -8,6 +8,8 @@ const App = () => {
           <File name="all_star.mp3." />
           <File name="express_file.mp3" />
         </Folder>
+        <File name="dogs.jpeg" />
+        <File name="cats.png" />
       </Folder>
       <Folder name="Applications">
         <Folder name="Facetime" />
@@ -19,10 +21,8 @@ const App = () => {
           <File name="all_star.mp3." />
           <File name="express_file.mp3" />
         </Folder>
-        <File name="dogs.jpeg" />
-        <File name="cats.png" />
         <Folder name="Random">
-          <File name="weirdText.txt" />
+          <File name="helloWorld.txt" />
         </Folder>
       </Folder>
     </div>
@@ -55,10 +55,10 @@ const File = (props) => {
   const fileExtension = name.split(".")[1];
   const fileIcons = {
     mp3: "headphones",
-    txt: "file outline icon",
+    txt: "file icon",
     jpeg: "file image",
     png: "file image outline",
-    pdf: "file outline pdf",
+    pdf: "file pdf",
   };
   return (
     <div>
